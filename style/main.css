@@ -1,0 +1,153 @@
+@media only screen and (min-width: 768px)
+{
+
+[class*="col-"]{
+    padding: 10px;
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*header*/
+header {
+    background-image: url('../afbeeldingen/Overzicht_vanuit_Stationsstraat_middengedeelte_uit_1864_-_Borne_-_20038467_-_RCE.jpg');
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*linkerdeel met lijst feitjes*/
+ul, li {
+    display: block;
+    background-color:silver;
+    list-style-type: none;
+}
+
+ul {
+    margin: auto;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*opmaak lijst*/
+#leuksteDorp, #wildpluk, #boetiek, #erfgoed, #activiteiten {
+    font-weight: bold;
+}
+
+#uitlegLeuksteDorp, #uitlegWildpluk, #uitlegBoetiek, #uitlegErfgoed, #uitlegActiviteiten {
+    font-size: smaller;
+    padding-bottom: 15px;
+}
+
+#websiteBorne, #agenda, #melbuuln {
+    display: block;
+    color: black;
+}
+
+a {
+    color: black;
+    font-style: normal;
+}
+
+
+/*Uitleg bij hover
+#leuksteDorp:hover + #uitlegLeuksteDorp
+ {
+    visibility: visible;
+    opacity: 100;
+
+}
+
+#wildpluk:hover + #uitlegWildpluk {
+    visibility: visible;
+}
+
+#boetiek:hover + #uitlegBoetiek {
+    visibility: visible;
+}
+
+#erfgoed:hover + #uitlegErfgoed {
+    visibility: visible;
+}
+
+#activiteiten:hover + #uitlegActiviteiten {
+    visibility: visible;*/
+
+
+/*rechterdeel*/
+.col-9 {
+    background-color:whitesmoke;
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.artikel1, .artikel2 {
+    padding: 0 15px;
+    border-left: 2px solid black;
+    float: right;
+}
+
+#brandweer, #spring, #boeken, #markt {
+    border: none;
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+#listmel {
+    border: none;
+    background-color: whitesmoke;
+    font-size: smaller;
+}
+
+.loopfietsrace {
+    padding-top: 20px;
+}
+
+.videorace {
+    padding: 25px 10px;
+}
+
+legend {
+    font-size: small;
+    text-align: left;
+}
+
+footer {
+    float: inline-end;
+    font-size: small;
+}
+
+/*Afbeeldingen*/
+
+.mellogo {
+    max-height: 300px;
+    float: right;
+    margin: 25px;
+}
+
+.livingstatue {
+    float: right;
+    margin: 25px;
+    max-height: 200px;
+}
+}
